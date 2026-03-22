@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Road Damage Reporting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<h2>🚧 Smart Road Damage Reporting System</h2>
+
+<form id="complaintForm">
+
+  <label>Upload Image:</label><br>
+  <input type="file" id="image"><br><br>
+
+  <label>Location:</label><br>
+  <input type="text" id="location" required><br><br>
+
+  <label>Damage Type:</label><br>
+  <select id="damageType">
+    <option>Pothole</option>
+    <option>Crack</option>
+    <option>Waterlogging</option>
+  </select><br><br>
+
+  <label>Road Type:</label><br>
+  <select id="roadType">
+    <option>National Highway</option>
+    <option>State Highway</option>
+    <option>Main Road</option>
+    <option>Internal Road</option>
+  </select><br><br>
+
+  <button type="submit">Submit Complaint</button>
+
+</form>
+
+<script src="script.js"></script>
+
+</body>
+</html>

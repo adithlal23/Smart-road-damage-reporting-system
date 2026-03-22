@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 20px;
+}
+
+/* Heading */
+h2 {
+  color: #2c3e50;
+}
+
+/* Form styling */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+/* Submit button */
+form button {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Dashboard cards */
+div {
+  background: white;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+}
+
+/* Status buttons */
+button:nth-child(1) {
+  background-color: orange;
+  color: white;
+}
+
+button:nth-child(2) {
+  background-color: green;
+  color: white;
+}
+
+/* Priority colors */
+.High {
+  color: red;
+  font-weight: bold;
+}
+
+.Medium {
+  color: orange;
+  font-weight: bold;
+}
+
+.Low {
+  color: green;
+  font-weight: bold;
+}
